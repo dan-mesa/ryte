@@ -2,6 +2,8 @@
 
 class Homepage extends CI_Controller {
 
+	// Comment
+
 	public function index()
 	{
 		$this->load->view('header');
