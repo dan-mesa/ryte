@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
+//test
 class Homepage extends CI_Controller {
 
 	// Comment
