@@ -23,7 +23,7 @@ class Profile extends CI_Controller {
 
 	public function view()
 	{
-		$this->load->view('profile/templates/justin-bieber');
+		$this->load->view('profile/templates/derek-jeter');
 	}
 
 	public function select_template()
