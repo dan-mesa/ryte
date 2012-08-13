@@ -28,9 +28,10 @@
   <body>
 
     <div class="container">
+        <!-- inspiration: http://jimmyme.x10.mx/16/01/02/ -->
 
         <!-- Introduction Widget -->
-        <div class="row">
+        <div class="row" style="margin-top: 16px;">
             <div class="span12">
                 <h1>
                     Derek Jeter
@@ -40,6 +41,78 @@
                 <p class="lead">Shortstop for the NY Yankees - I have more money and World Series Rings than just about anyone. I also do freelance web development and am available for hire. #productivity</p>
             </div>
         </div>
+        <hr/>
+
+        <!--Work Experience Widget-->
+        <h2>Work Experience</h2>
+        <div class="row">
+
+            <!-- Job 1 -->
+            <div class="row">
+                <!--Employer, Position, Dates -->
+                <div class="span3">
+                    <p class="lead" style="margin-bottom: 0; float: right; clear: both;">New York Yankees</p>
+                    <p style="margin-bottom: 0; float: right; clear: both;"><b>Shortstop</b></p>
+                    <p style="float: right; clear: both;"><em>April 1995 - Current</em></p>
+                </div>
+
+                <!--Description about the job -->
+                <div class="span6">
+                    <ul class="unstyled">
+                        <li style="margin-left: 20px;"><i class="icon-chevron-right" style="margin-left: -20px; padding-right: 6px;"></i>Cras a purus at urna pulvinar imperdiet. Etiam sit amet neque sit amet orci tempus molestie ut a nulla.</li>
+                        <li style="margin-left: 20px;"><i class="icon-chevron-right" style="margin-left: -20px; padding-right: 6px;"></i>Vivamus malesuada mi vitae ante convallis molestie. Nulla facilisi. Mauris eu sem mi, ac rhoncus augue. Quisque ut libero metus. Mauris suscipit, lectus non volutpat feugiat, quam erat sollicitudin mi, sed pulvinar mi ligula non tellus.</li>
+                        <li style="margin-left: 20px;"><i class="icon-chevron-right" style="margin-left: -20px; padding-right: 6px;"></i>Proin lorem neque, lacinia non venenatis non, sodales in odio. Maecenas a diam est, sit amet auctor libero. Aenean dignissim lorem in metus auctor nec vulputate urna bibendum. Vivamus a bibendum tortor.</li>
+                </div>
+
+                <!--Highlighted Skills-->
+                <div class="span3">
+
+                    <b>Achievements</b>
+                    <ul class="unstyled">
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>Rookie of the Year</li>
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>3x AL MVP</li>
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>15 Time All-Star</li>
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>5 World Series Rings</li>
+                    </ul>
+
+                    <a href="#">More Details</a>
+
+                </div>
+            </div><!--End Job 1 -->
+            <!-- Job 2 -->
+            <div class="row" style="margin-top: 16px; padding: 6px;">
+                <!--Employer, Position, Dates -->
+                <div class="span3">
+                    <p class="lead" style="margin-bottom: 0; float: right; clear: both;">AAA Trenton</p>
+                    <p style="margin-bottom: 0; float: right; clear: both;"><b>Shortstop</b></p>
+                    <p style="float: right; clear: both;"><em>April 1993 - March 1995</em></p>
+                </div>
+
+                <!--Description about the job -->
+                <div class="span6">
+                    <ul class="unstyled">
+                        <li style="margin-left: 20px;"><i class="icon-chevron-right" style="margin-left: -20px; padding-right: 6px;"></i>Cras a purus at urna pulvinar imperdiet. Etiam sit amet neque sit amet orci tempus molestie ut a nulla.</li>
+                        <li style="margin-left: 20px;"><i class="icon-chevron-right" style="margin-left: -20px; padding-right: 6px;"></i>Vivamus malesuada mi vitae ante convallis molestie. Nulla facilisi. Mauris eu sem mi, ac rhoncus augue. Quisque ut libero metus. Mauris suscipit, lectus non volutpat feugiat, quam erat sollicitudin mi, sed pulvinar mi ligula non tellus.</li>
+                        <li style="margin-left: 20px;"><i class="icon-chevron-right" style="margin-left: -20px; padding-right: 6px;"></i>Proin lorem neque, lacinia non venenatis non, sodales in odio. Maecenas a diam est, sit amet auctor libero. Aenean dignissim lorem in metus auctor nec vulputate urna bibendum. Vivamus a bibendum tortor.</li>
+                </div>
+
+                <!--Highlighted Skills-->
+                <div class="span3">
+
+                    <b>Tools of the Trade</b>
+                    <ul class="unstyled">
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>Wooden Bat</li>
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>Leather Glove</li>
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>Tall Socks</li>
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>Baseball Cap</li>
+                    </ul>
+
+                    <a href="#">More Details</a>
+
+                </div>
+            </div><!--End Job 2 -->
+        </div> <!--End Work Experience Widget-->
+        <hr/>
 
         <!--Technical Skills Widget-->
         <h2>Technical Skills</h2>
@@ -121,6 +194,113 @@
                 </blockquote>
             </div>
         </div> <!--End Technical Skills Widget-->
+        <hr/>
+
+        <!--Education Widget-->
+        <h2>Education</h2>
+        <div class="row">
+
+            <!-- Echool 1 -->
+            <div class="row">
+                <!--School, Major, Minor, Dates -->
+                <div class="span3">
+                    <p class="lead" style="margin-bottom: 0; float: right; clear: both;">University of Vermont</p>
+                    <p style="margin-bottom: 0; float: right; clear: both;"><b>M: Entrepreneurship</b></p>
+                    <p style="margin-bottom: 0; float: right; clear: both;"><b>m: Computer Science</b></p>
+                    <p style="float: right; clear: both;"><em>2007-2011</em></p>
+                </div>
+
+                <!--Description about your education -->
+                <div class="span6">
+                    <ul class="unstyled">
+                        <li style="margin-left: 20px;"><i class="icon-chevron-right" style="margin-left: -20px; padding-right: 6px;"></i>Cras a purus at urna pulvinar imperdiet. Etiam sit amet neque sit amet orci tempus molestie ut a nulla.</li>
+                        <li style="margin-left: 20px;"><i class="icon-chevron-right" style="margin-left: -20px; padding-right: 6px;"></i>Vivamus malesuada mi vitae ante convallis molestie. Nulla facilisi. Mauris eu sem mi, ac rhoncus augue. Quisque ut libero metus. Mauris suscipit, lectus non volutpat feugiat, quam erat sollicitudin mi, sed pulvinar mi ligula non tellus.</li>
+                        <li style="margin-left: 20px;"><i class="icon-chevron-right" style="margin-left: -20px; padding-right: 6px;"></i>Proin lorem neque, lacinia non venenatis non, sodales in odio. Maecenas a diam est, sit amet auctor libero. Aenean dignissim lorem in metus auctor nec vulputate urna bibendum. Vivamus a bibendum tortor.</li>
+                </div>
+
+                <!--Highlighted Coursework-->
+                <div class="span3">
+
+                    <b>Key Courses</b>
+                    <ul class="unstyled">
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>Robotic Programming</li>
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>New Venture Creation I & II</li>
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>Database-Driven Web Development</li>
+                        <li><i class="icon-ok" style="margin-right: 4px;"></i>Managerial Finance</li>
+                    </ul>
+
+                    <a href="#">More Details</a>
+
+                </div>
+            </div><!--End School 1 -->
+        </div> <!--End Education Widget-->
+        <hr/>
+
+        <!--Get In Touch Widget-->
+        <h2>Get In Touch</h2>
+        <div class="row">
+
+            <!-- Contact Form -->
+            <div class="span4">
+                <form class="well">
+                    <input type="text" class="span3" placeholder="name">
+                    <input type="text" class="span3" placeholder="email">
+                    <input type="text" class="span3" placeholder="subject">
+                    <textarea class="span3">Type your message here.</textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+
+            <!-- Ways to get in touch -->
+            <div class="span4 offset1">
+                <p><i class="icon-envelope" style="display: block; float: left; margin-right: 8px;"></i><b>derek.jeter@email.com</p>
+                <p><i class="icon-comment" style="display: block; float: left; margin-right: 8px;"></i>(212) 654-5567<p>
+                <p><i class="icon-home" style="display: block; float: left; margin-right: 8px;"></i>2 Main Avenue, Manhattan, NY 05406</p>
+
+                <div class="socialIcons"  style="padding-top: 16px;">
+                    <a href="#"><img src="/assets/images/social_icons/facebook.png" style="padding-right: 4px;" /></a>
+                    <a href="#"><img src="/assets/images/social_icons/linkedin.png" style="padding-right: 4px;"/></a>
+                    <a href="#"><img src="/assets/images/social_icons/twitter.png" style="padding-right: 4px;"/></a>
+                    <a href="#"><img src="/assets/images/social_icons/rss.png" /></a>
+                </div>
+            </div>
+
+            <!-- Twitter Feed -->
+            <!-- https://twitter.com/about/resources/widgets/widget_profile -->
+            <div class="span3">
+                <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+                <script>
+                new TWTR.Widget({
+                  version: 2,
+                  type: 'profile',
+                  rpp: 3,
+                  interval: 30000,
+                  width: 'auto',
+                  height: 200,
+                  theme: {
+                    shell: {
+                      background: '#ffffff',
+                      color: '#2b2b2b'
+                    },
+                    tweets: {
+                      background: '#ffffff',
+                      color: '#858585',
+                      links: '#0726eb'
+                    }
+                  },
+                  features: {
+                    scrollbar: false,
+                    loop: false,
+                    live: false,
+                    behavior: 'all'
+                  }
+                }).render().setUser('yankees').start();
+                </script>
+            </div>
+
+            </div><!--End School 1 -->
+        </div> <!--End Get in Touch Widget-->
+        <hr/>
 
     </div> <!--Close #container -->
 
