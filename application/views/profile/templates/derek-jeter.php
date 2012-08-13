@@ -27,34 +27,108 @@
 
   <body>
 
-  	<div style="background: #e2e2e2; border-bottom: solid 1px #d7d7d7; padding: 20px;">
-	    <div class="container">
+    <div class="container">
 
-	    	<div class="row">
-				<div class="span3">
-					<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Justin_Bieber_NRJ_Music_Awards_2012.jpg/250px-Justin_Bieber_NRJ_Music_Awards_2012.jpg" alt=""></p>
+        <!-- Introduction Widget -->
+        <div class="row">
+            <div class="span12">
+                <h1>
+                    Derek Jeter
+                    <small>Shortstop for the New York Yankees</small>
+                </h1>
 
-					<h3>Download Resume</h3>
+                <p class="lead">Shortstop for the NY Yankees - I have more money and World Series Rings than just about anyone. I also do freelance web development and am available for hire. #productivity</p>
+            </div>
+        </div>
 
-					<ul>
-						<li>Location</li>
-						<li>Phone</li>
-						<li>Email</li>
-						<li></li>
-					</ul>
+        <!--Technical Skills Widget-->
+        <h2>Technical Skills</h2>
+        <div class="row">
 
-					<h4>Skills</h4>
-					<p><span class="label">Default</span> <span class="label">Default</span> <span class="label">Default</span> <span class="label">Default</span> <span class="label">Default</span></p>
+            <!--List Skills-->
+            <div class="span6">
 
-				</div>
-				<div class="span9">
-					<h1>Derek Jeter</h1>
-					<p>Professional Butt Juice</p>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? <span>Justin Bieber</span></p>
-				</div>
-			</div>
-	    </div> <!-- /container -->
-    </div>
+                <dl class="dl-horizontal">
+
+                    <dt>Gold Glove Shortstop</dt>
+                    <dd>
+                        <div class="progress progress-striped">
+                            <div class="bar" style="width: 95%;"></div>
+                        </div>
+                    </dd>
+
+                    <dt>.320 lifetime BA</dt>
+                    <dd>
+                        <div class="progress progress-striped">
+                            <div class="bar" style="width: 88%;"></div>
+                        </div>
+                    </dd>
+
+                    <dt>5 World Series Rings</dt>
+                    <dd>
+                        <div class="progress progress-striped">
+                            <div class="bar" style="width: 70%;"></div>
+                        </div>
+                    </dd>
+
+                    <dt>Team Captain</dt>
+                    <dd>
+                        <div class="progress progress-striped">
+                            <div class="bar" style="width: 70%;"></div>
+                        </div>
+                    </dd>
+
+                    <dt>Ladies Man</dt>
+                    <dd>
+                        <div class="progress progress-striped">
+                            <div class="bar" style="width: 65%;"></div>
+                        </div>
+                    </dd>
+
+                    <dt>Turn2 Foundation</dt>
+                    <dd>
+                        <div class="progress progress-striped">
+                            <div class="bar" style="width: 55%;"></div>
+                        </div>
+                    </dd>
+                </dl>
+
+            </div>
+
+            <!--Work Samples-->
+            <div class="span3">
+                <dl>
+                    <dt><a href="#">Link to Work Sample</a></dt>
+                        <dd>Brief description of this piece of work.</dd>
+                    <dt><a href="#">Link to Work Sample</a></dt>
+                        <dd>Brief description of this piece of work.</dd>
+                    <dt><a href="#">Link to Work Sample</a></dt>
+                        <dd>Brief description of this piece of work.</dd>
+
+ 
+                </ul>
+            </div>
+
+            <!-- Quote -->
+            <div class="span3">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
+                    <small>Someone famous</small>
+                </blockquote>
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
+                    <small>Someone famous</small>
+                </blockquote>
+            </div>
+        </div> <!--End Technical Skills Widget-->
+
+    </div> <!--Close #container -->
+
+
+
+
+
+<!-- end content, start js and end of file-->
 
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap-transition.js"></script>
