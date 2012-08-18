@@ -1,5 +1,6 @@
 
 <form class="well form-inline">
+	<span>Welcome back!</span>
   <input type="text" class="input-small" placeholder="Email">
   <input type="password" class="input-small" placeholder="Password">
   <label class="checkbox">
@@ -14,7 +15,7 @@
 <hr />
 
 <h2>Ready to Sign Up?</h2>
-<form class="form-horizontal">
+<form class="form-horizontal" action="/index.php/profile/create">
   <fieldset>
     <legend>Just a few quick details:</legend>
     <div class="control-group">
