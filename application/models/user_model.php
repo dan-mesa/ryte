@@ -11,7 +11,9 @@ class User_model extends CI_Model {
 
     public function insert($data)
     {
-        $this->db->insert('users', $data);
+        if($this->db->insert('users', $data)){
+            return true;
+        }
     }
  
     public function is_logged_in()
@@ -28,7 +30,6 @@ class User_model extends CI_Model {
     {
         // TBD
     }
-
 }
 
 /* End of file user_model.php */

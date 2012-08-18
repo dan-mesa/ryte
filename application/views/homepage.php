@@ -15,26 +15,26 @@
 <hr />
 
 <h2>Ready to Sign Up?</h2>
-<form class="form-horizontal" action="/index.php/profile/create">
+<form class="form-horizontal" action="/profile/create" method="post">
   <fieldset>
     <legend>Just a few quick details:</legend>
     <div class="control-group">
       <label class="control-label" for="input01">Email</label>
       <div class="controls">
-        <input type="text" class="input-xlarge" id="input01">
-        <p class="help-block">Supporting help text</p>
+        <input type="text" class="input-xlarge" id="email" name="email">
+        <p class="help-block">You'll use this to log in.</p>
       </div>
     </div>
     <div class="control-group">
       <label class="control-label" for="input01">Password</label>
       <div class="controls">
-        <input type="text" class="input-xlarge" id="input01">
+        <input type="password" class="input-xlarge" id="password" name="password">
       </div>
     </div>
     <div class="control-group">
       <label class="control-label" for="input01">Confirm Password</label>
       <div class="controls">
-        <input type="text" class="input-xlarge" id="input01">
+        <input type="text" class="input-xlarge" id="confirm" name="confirm">
         <p class="help-block">Let's see if we can figure out a way to not have to do this.</p>
       </div>
     </div>
