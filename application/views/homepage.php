@@ -15,7 +15,7 @@
 <hr />
 
 <h2>Ready to Sign Up?</h2>
-<form class="form-horizontal" action="/profile/create" method="post">
+<form class="form-horizontal" action="/homepage/sign_up" method="post" id="signup">
   <fieldset>
     <legend>Just a few quick details:</legend>
     <div class="control-group">
