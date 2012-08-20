@@ -15,6 +15,12 @@ class User_model extends CI_Model {
             return true;
         }
     }
+
+    public function update($data)
+    {
+        $user_id = $this->session->userdata('user_id');
+        $this->db->update('users', $data, "user_id = $user_id"); // SQL INJECTION
+    }
  
     public function is_logged_in()
     {

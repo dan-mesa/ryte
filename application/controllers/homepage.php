@@ -30,10 +30,10 @@ class Homepage extends CI_Controller {
 		$this->session->set_userdata(array(
 			"user_id" => $this->db->insert_id(),
 			"email" => $email,
-			"template" => 0
+			"template_id" => 0
 		));
 
-		redirect('/profile/create/new');
+		redirect('/profile/select/new');
 	}
 }
 
