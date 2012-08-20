@@ -61,6 +61,4 @@
 	print_r($this->session->all_userdata());
 	echo "</pre>";
 
-	echo $this->session->userdata('user_id');
-
 ?>

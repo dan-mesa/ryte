@@ -11,9 +11,6 @@ class Profile extends CI_Controller {
 
 	public function select()
 	{
-
-		$this->output->enable_profiler(TRUE);
-
 		$this->load->view('header');
 		$this->load->view('profile/select');
 		$this->load->view('footer');
@@ -31,9 +28,6 @@ class Profile extends CI_Controller {
 
 	public function select_template()
 	{
-
-		//$this->output->enable_profiler(TRUE);
-
 		$this->load->model('user_model');
 
 		// Update Database
@@ -46,7 +40,7 @@ class Profile extends CI_Controller {
 		// Update Session Data
 		$this->session->set_userdata('template_id', $template_id);
 
-		redirect('/profile/select');
+		redirect('/dashboard');
 	}
 
 }
