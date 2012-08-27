@@ -9,10 +9,10 @@ class Profile extends CI_Controller {
 		$this->load->view('footer');
 	}
 
-	public function create()
+	public function select()
 	{
 		$this->load->view('header');
-		$this->load->view('profile/create');
+		$this->load->view('profile/select');
 		$this->load->view('footer');
 	}
 
@@ -28,11 +28,19 @@ class Profile extends CI_Controller {
 
 	public function select_template()
 	{
+		$this->load->model('user_model');
 
-		// Get template ID from URL
-		// Update user template ID
-		// Redirect to user dashboard
+		// Update Database
+		$template_id = $this->uri->segment(3);
+		$data = array(
+			'template_id' => $template_id
+		);
+		$this->user_model->update($data);
 
+		// Update Session Data
+		$this->session->set_userdata('template_id', $template_id);
+
+		redirect('/dashboard');
 	}
 
 }
